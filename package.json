@@ -1,5 +1,5 @@
 {
-  "name": "lbyte-components",
+  "name": "@lbyte/lbyte-components",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

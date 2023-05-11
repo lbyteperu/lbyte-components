@@ -1,8 +1,9 @@
 {
-  "name": "@lbyte/lbyte-components",
+  "name": "@rubenpazch/lbyte-components",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/cli": "^7.21.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,6 +11,7 @@
     "@types/node": "^16.18.25",
     "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.3",
+    "cross-env": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -18,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
@@ -67,5 +69,30 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.0.8",
     "webpack": "^5.82.0"
-  }
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
+  "description": "The Storybook design system tutorial is a subset of the full [Storybook design system](https://github.com/storybookjs/design-system/), created as a learning resource for those interested in learning how to write and publish a design system using best in practice techniques.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbyteperu/lbyte-components.git"
+  },
+  "keywords": [
+    "lbyte-components"
+  ],
+  "author": "ruben paz chuspe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbyteperu/lbyte-components/issues"
+  },
+  "homepage": "https://github.com/lbyteperu/lbyte-components#readme"
 }

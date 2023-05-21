@@ -10,6 +10,18 @@
 
 ---
 
+# v0.1.2 (Sun May 21 2023)
+
+#### ⚠️ Pushed to `main`
+
+- publish change ([@rubenpazch](https://github.com/rubenpazch))
+
+#### Authors: 1
+
+- Ruben Paz Chuspe ([@rubenpazch](https://github.com/rubenpazch))
+
+---
+
 # v0.1.1 (Wed May 10 2023)
 
 #### ⚠️ Pushed to `main`

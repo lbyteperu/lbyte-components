@@ -1,51 +1,42 @@
-const webpack = require('webpack');
-const path = require('path');
+const webpack = require("webpack");
+const path = require("path");
 
 const config = {
-  entry: [
-    'react-hot-loader/patch',
-    './src/index.tsx'
-  ],
+  entry: [path.resolve(__dirname, "src/index.ts")],
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js'
+    path: path.resolve(__dirname, "dist"),
+    filename: "index.js",
   },
   module: {
     rules: [
       {
         test: /\.ts(x)?$/,
-        loader: 'ts-loader',
-        exclude: /node_modules/
+        loader: "ts-loader",
+        exclude: /node_modules/,
       },
       {
         test: /\.(js|jsx)$/,
-        use: 'babel-loader',
-        exclude: /node_modules/
+        use: "babel-loader",
+        exclude: /node_modules/,
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader'
-        ]
-      }
-    ]
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
   resolve: {
-    extensions: [
-      '.tsx',
-      '.ts',
-      '.js'
-    ],
+    extensions: [".tsx", ".ts", ".js"],
     alias: {
-      'react-dom': '@hot-loader/react-dom'
-    }
+      "react-dom": "@hot-loader/react-dom",
+    },
   },
   devServer: {
-    'static': {
-      directory: './dist'
-    }
-  }
+    static: {
+      directory: "./dist",
+    },
+  },
 };
 
 module.exports = config;
+

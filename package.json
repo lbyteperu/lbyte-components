@@ -4,7 +4,10 @@
   "description": "",
   "main": "dist/bundle.js",
   "keywords": [],
-  "author": "",
+  "author": {
+    "email": "rubenpazchuspe@outlook.com",
+    "name":"Ruben Paz Chuspe"
+  },
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",

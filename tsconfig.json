@@ -4,15 +4,20 @@
         "sourceMap": true,
         "strict": true,
         "noImplicitReturns": true,
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "module": "es6",
         "moduleResolution": "node",
         "target": "es5",
         "allowJs": true,
         "jsx": "react",
         "allowSyntheticDefaultImports": true,
+        "typeRoots": [
+            "typings",
+            "node_modules/@types"
+        ],
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "index.d.ts",
     ]
 }

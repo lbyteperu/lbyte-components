@@ -1,3 +1,15 @@
+# v1.0.7 (Tue May 23 2023)
+
+#### ⚠️ Pushed to `main`
+
+- fix release langauge ([@rubenpazch](https://github.com/rubenpazch))
+
+#### Authors: 1
+
+- Ruben Paz Chuspe ([@rubenpazch](https://github.com/rubenpazch))
+
+---
+
 # v1.0.6 (Tue May 23 2023)
 
 #### ⚠️ Pushed to `main`

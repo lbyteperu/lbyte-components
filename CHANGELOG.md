@@ -1,3 +1,15 @@
+# v1.0.3 (Mon May 22 2023)
+
+#### ⚠️ Pushed to `main`
+
+- update package jsonn ([@rubenpazch](https://github.com/rubenpazch))
+
+#### Authors: 1
+
+- Ruben Paz Chuspe ([@rubenpazch](https://github.com/rubenpazch))
+
+---
+
 # v1.0.2 (Mon May 22 2023)
 
 #### ⚠️ Pushed to `main`

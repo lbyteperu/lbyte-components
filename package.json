@@ -2,7 +2,8 @@
   "name": "@rubenpazch/lbyte-components",
   "version": "1.0.8",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "keywords": [],
   "author": {
     "email": "rubenpazchuspe@outlook.com",
